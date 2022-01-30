@@ -1,5 +1,7 @@
 # TP2 - Gestionnaires de tâches
 
+Lien GitHub Classroom pour [créer un fork privé du TP](https://classroom.github.com/a/sVst7ccV).
+
 Dans ce TD, nous allons continuer l’étude des _Threads_ en Java et voir en particulier comment on peut utiliser des _gestionnaires_ spécifiques pour exécuter des tâches (les tâches elles-mêmes ne sont pas nécessairement des _threads_, mais les gestionnaires peuvent utliser les _threads_ pour les réaliser).
 
 **Rappel de cours :** En Java les interfaces `Executor` et `ExecutorService` décrivent des « boîtes à outils » pour la création et la gestion de groupes de tâches. La gestion des tâches est déléguée à un `Executor` en lui passant la tâche par sa méthode `execute(Runnable command)`. Les tâches sont alors créées et exécutées par le gestionnaire (souvent sous forme de _threads_).
